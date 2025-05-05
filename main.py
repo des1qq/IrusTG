@@ -9,7 +9,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # === Настройки ===
-TOKEN = '8035556440:AAEKMqpHNJpELaEyIkoucTaACEe__H4fPSg'
+TOKEN = BOT_TOKEN
 CHAT_ID = 6093665080
 FETCH_INTERVAL = 160  # интервал запроса в секундах
 SENSITIVITY = 0.4     # чувствительность в %
